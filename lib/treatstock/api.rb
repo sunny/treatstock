@@ -23,6 +23,11 @@ module Treatstock
       ).parse
     end
 
+    def get_printable_pack(id:)
+      url = "http://sandbox.treatstock.com/api/v2/printable-packs/#{id}"
+      HTTP.get(url, params: { "private-key": private_key }).parse
+    end
+
     private
 
     attr_reader :private_key
