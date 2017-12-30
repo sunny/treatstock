@@ -1,5 +1,3 @@
-require "treatstock/version"
+# frozen_string_literal: true
 
-module Treatstock
-  # Your code goes here...
-end
+require "treatstock/version"
