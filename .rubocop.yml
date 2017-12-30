@@ -6,3 +6,24 @@ Style/StringLiterals:
 
 Gemspec/OrderedDependencies:
   Enabled: false
+
+Style/TrailingCommaInLiteral:
+  EnforcedStyleForMultiline: consistent_comma
+
+Style/TrailingCommaInArguments:
+  EnforcedStyleForMultiline: consistent_comma
+
+Style/BlockDelimiters:
+  EnforcedStyle: semantic
+  FunctionalMethods:
+    - before
+    - let
+    - let!
+    - subject
+    - watch
+    - expect
+    - git_source
+
+Metrics/BlockLength:
+  Exclude:
+    - spec/**/*
