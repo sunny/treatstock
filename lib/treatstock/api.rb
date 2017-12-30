@@ -18,7 +18,7 @@ module Treatstock
         form: {
           affiliate_price: affiliate_price,
           affiliate_currency: affiliate_currency,
-          files: files,
+          "files[]": files,
         },
       ).parse
     end

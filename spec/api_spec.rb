@@ -12,9 +12,7 @@ RSpec.describe Treatstock::API do
       {
         affiliate_price: "12",
         affiliate_currency: "USD",
-
-        # TODO: Shouldn't this be "files[]" ?
-        files: "http://example.com/file.stl",
+        files: ["http://example.com/file.stl"],
       }
     }
     let(:fake_result_body) {
