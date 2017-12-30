@@ -53,3 +53,7 @@ to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 Everyone interacting in the Treatstock project’s codebases, issue trackers,
 chat rooms and mailing lists is expected to follow the
 [code of conduct](https://github.com/sunny/treatstock/blob/master/CODE_OF_CONDUCT.md).
+
+## License
+
+Licensed under the MIT License.
